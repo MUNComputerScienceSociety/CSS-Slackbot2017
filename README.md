@@ -19,7 +19,7 @@ So far this is really straight forward. Once you have your fork cloned, using yo
 
 After that, you will have to copy `configBlueprint.js` to `config.js` and add your slack channel token to the config file.
 
-To run the bot server, use `npm run` in the root directory of the project.
+To run the bot server, use `npm run test` in the root directory of the project.
 
 #### 4. Workflow
 
