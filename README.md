@@ -19,9 +19,15 @@ So far this is really straight forward. Once you have your fork cloned, using yo
 
 After that, you will have to copy `configBlueprint.js` to `config.js` and add your slack channel token to the config file.
 
+To run the bot server, use `npm run` in the root directory of the project.
+
 #### 4. Workflow
 
-At any given time there will be tasks waiting for contribution under the *Projects* tab. If you decide to work on a task, move the task to the *In Progress* column. You should then make a new branch on your local repository (that will be the feature branch) and make your changes there, pushing your changes to your fork of the repository. Once you think your code is ready for review, make a Pull Request from your fork's feature branch to the main repository's _master_ branch. Your code will be reviewed and tested, and any changes needed will requested on the PR. Once the PR is fully reviewed, it will be merged to _master_ directly.
+If you have a feature or bug fix that you want to add to the project, you can add that under the issues tab. Then, you can work on developing that issue given that it falls in-line with the goals of the project ( i.e. the issue has been approved by a project owner). You can also just contribute by ideation and find another developer interested in your issue.
+
+Another option is to work on an already approved issue that is still in progress; if you would like to do so, you should add a comment on the issue indicating that, and get the approval of the owner of the issue. If the owner is not active, then in the case that there are contributors to the issue (individuals working on resolving the issue), you can get their approval instead. Once that is done, you, the contributors, and the owner if possible, should organize your efforts through the issue's page, and delicate tasks according to what you see fit.
+
+If you would like to work on the issue yourself, you should then make a new branch on your local repository (that will be the feature branch), having the issue number and title as its name. Make your changes there, pushing your changes to your fork of the repository. Once you think your code is ready for review, make a Pull Request from your fork's feature branch to the main repository's _master_ branch. Your code will be reviewed and tested, and any changes needed will be requested on the PR. Once the PR is fully reviewed, it will be merged to _master_ directly.
 
 #### 5. Resources and Documentation
 
