@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moustafaelsisy/CSS-Slackbot2017.git"
+    "url": "git+https://github.com/MUNComputerScienceSociety/CSS-Slackbot2017"
   },
   "keywords": [
     "MUN",
@@ -22,9 +22,9 @@
   "author": "Memorial University of Newfoundland - Computer Science Society",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/moustafaelsisy/CSS-Slackbot2017/issues"
+    "url": "https://github.com/MUNComputerScienceSociety/CSS-Slackbot2017/issues"
   },
-  "homepage": "https://github.com/moustafaelsisy/CSS-Slackbot2017#readme",
+  "homepage": "https://github.com/MUNComputerScienceSociety/CSS-Slackbot2017#readme",
   "dependencies": {
     "botkit": "^0.6.3"
   },
