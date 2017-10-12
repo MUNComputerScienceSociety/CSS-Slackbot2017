@@ -34,3 +34,8 @@ If you would like to work on the issue yourself, you should then make a new bran
 * [Slack RTM API](https://api.slack.com/rtm)
 * [Botkit and Slack Documentation](https://github.com/howdyai/botkit/blob/HEAD/docs/readme-slack.md)
 * [How to Build A Slack Bot in NodeJS using Botkit](https://fossbytes.com/how-to-build-a-slack-chat-bot-in-nodejs-using-botkit/)
+* [NodeJS Tutorial for Beginners](https://www.youtube.com/watch?v=U8XF6AFGqlc)
+
+## Objective
+
+The aim of the bot is to be able to take in a schedule and a topic, based on which it will act as a quick news feed by sending the user a single trending article or post relating to the specified topic. This should be done by either crawling the web for an trending entry, or through an API that can provide such a service.
