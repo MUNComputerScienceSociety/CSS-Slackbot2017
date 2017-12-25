@@ -1,0 +1,8 @@
+This bot returns the top hit from google news related to the topic sent.
+
+searchArticle.js is from the repo
+
+https://github.com/apollonian11/reactriot2017-reaction
+https://github.com/apollonian11/reactriot2017-reaction/blob/master/serverApi.js
+
+It uses the RSS feed response to parse the results.
