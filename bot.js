@@ -1,5 +1,7 @@
 const Botkit = require('botkit')
-const config = require('./config')
+const config = require('./apiconfig')
+
+const search = require('./searchArticles.js')
 
 const controller = Botkit.slackbot();
 
@@ -14,5 +16,15 @@ bot.startRTM((err, bot, payload) => {
 })
 
 controller.hears(["Hello"], ["direct_message", "direct_mention", "mention"], (bot, message) => {
-  bot.reply(message, 'Hello there!')
+    bot.reply(message, 'Hello there!')
+
+})
+
+controller.hears([".*"], ["direct_message", "direct_mention", "mention"], (bot, message) => {
+
+    search(message.text, callback)
+
+    function callback(result) {
+        bot.reply(message, result[1].url)
+    }
 })
