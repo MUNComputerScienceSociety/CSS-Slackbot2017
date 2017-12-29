@@ -1,5 +1,5 @@
 const Botkit = require('botkit')
-const config = require('./apiconfig')
+const config = require('./config')
 
 const search = require('./searchArticles.js')
 
