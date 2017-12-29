@@ -15,8 +15,8 @@ bot.startRTM((err, bot, payload) => {
   }
 })
 
-controller.hears(["Hello"], ["direct_message", "direct_mention", "mention"], (bot, message) => {
-    bot.reply(message, 'Hello there!')
+controller.hears(["!help"], ["direct_message", "direct_mention", "mention"], (bot, message) => {
+    bot.reply(message, "Type in any topic to get a related article's url")
 
 })
 
@@ -25,6 +25,6 @@ controller.hears([".*"], ["direct_message", "direct_mention", "mention"], (bot, 
     search(message.text, callback)
 
     function callback(result) {
-        bot.reply(message, result[1].url)
+        bot.reply(message, result[1].title + '\n\n' + result[1].url)
     }
 })
