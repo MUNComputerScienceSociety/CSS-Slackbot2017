@@ -39,3 +39,17 @@ If you would like to work on the issue yourself, you should then make a new bran
 ## Objective
 
 The aim of the bot is to be able to take in a schedule and a topic, based on which it will act as a quick news feed by sending the user a single trending article or post relating to the specified topic. This should be done by either crawling the web for an trending entry, or through an API that can provide such a service.
+
+#### Features added
+
+In this fork of the bot, if a direct message/direct mention/mention is sent with a search topic, it will reply with a url of the top hit from google news.
+Send !help for a brief explanation of the bot.
+
+searchArticle.js is from the repo
+
+https://github.com/apollonian11/reactriot2017-reaction
+https://github.com/apollonian11/reactriot2017-reaction/blob/master/serverApi.js
+
+It uses the RSS feed response to parse the results.
+
+
