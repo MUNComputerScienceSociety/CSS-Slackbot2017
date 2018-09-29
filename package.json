@@ -26,7 +26,11 @@
   },
   "homepage": "https://github.com/MUNComputerScienceSociety/CSS-Slackbot2017#readme",
   "dependencies": {
-    "botkit": "^0.6.3"
+    "botkit": "^0.6.7",
+    "cheerio": "^1.0.0-rc.2",
+    "rss-to-json": "^1.0.3",
+    "slug": "^0.9.1",
+    "url": "^0.11.0"
   },
   "devDependencies": {
     "babel-register": "^6.26.0"
